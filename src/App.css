@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  background-image: linear-gradient(
+    to right top,
+    #6fa9ff,
+    #a3bcff,
+    #c9d0fe,
+    #e7e7fe,
+    #ffffff
+  );
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  color: #61dafb;
+  margin: auto 16px;
+  font-size: 54px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-links {
   display: flex;
-  flex-direction: column;
+  margin: auto 34px;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.nav-container {
+  margin: 0 120px;
+  padding: 0;
+  /* background-color: rgb(207, 206, 206); */
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+.link-item {
+  margin: auto 8px;
+  color: rgb(68, 68, 68);
+  font-size: 20px;
+  font-weight: 500;
+  list-style-type: none;
+  text-decoration: none;
+}
+.hero-container {
+  margin: 160px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-heading {
+  font-size: 72px;
+  margin-bottom: 24px;
+
+  margin: 12px;
+}
+.hero-subheading {
+  font-size: 24px;
+  margin-bottom: 24px;
+  width: 70vw;
+  margin: 12px;
+}
+.image {
+  margin-top: -72px;
+}
+.btn-container {
+  background-color: #000;
+  width: 200px;
+  height: 80px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 24px;
 }
-
-.App-link {
-  color: #61dafb;
+.download-on {
+  color: aliceblue;
+  font-size: 14px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-store {
+  font-weight: bold;
+  color: aliceblue;
+  font-size: 24px;
+}
+.apple-icon {
+  width: 36px;
+  height: 36px;
+  margin: 8px;
+}
+.active {
+  text-decoration: underline;
 }
